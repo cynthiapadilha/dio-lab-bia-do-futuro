@@ -5,34 +5,34 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Muitas pessoas têm dificuldade em compreender termos financeiros básicos e calcular simulações simples, como juros compostos ou comparações entre produtos financeiros. Isso gera insegurança e falta de clareza na tomada de decisões.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente atua como um assistente digital que responde dúvidas em linguagem natural, explica conceitos financeiros de forma acessível e realiza simulações demonstrativas. Ele mantém o histórico de interações para oferecer respostas contextualizadas e personalizadas.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Estudantes, jovens adultos e qualquer pessoa que esteja iniciando sua jornada de educação financeira e queira compreender melhor produtos e cálculos básicos sem precisar recorrer a consultorias pagas.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+FinAI
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+Educativo e consultivo, sempre buscando simplificar conceitos e apoiar o usuário na compreensão.
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Acessível e amigável, evitando jargões técnicos e usando exemplos práticos.
 
 ### Exemplos de Linguagem
 - Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
@@ -60,9 +60,9 @@ flowchart TD
 | Componente | Descrição |
 |------------|-----------|
 | Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| LLM | HuggingFace Transformers (modelo open source) |
+| Base de Conhecimento |JSON/CSV com dados financeiros básicos|
+| Validação | Checagem de consistência e mensagens de limitação |
 
 ---
 
@@ -70,12 +70,21 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+Agente só responde com base nos dados fornecidos
+
+Respostas incluem explicações simples e fontes quando aplicável
+
+Quando não sabe, admite e redireciona
+
+Não faz recomendações de investimento sem perfil do cliente
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+Não substitui consultoria financeira profissional
+
+Não recomenda investimentos específicos
+
+Não acessa dados bancários reais
+
+Não realiza transações financeiras
