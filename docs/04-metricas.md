@@ -53,10 +53,18 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+Respostas claras e acessíveis
+
+Simulações de cálculos corretas
+
+Reconhecimento de perguntas fora do escopo
 
 **O que pode melhorar:**
-- [Liste aqui]
+Ampliar base de conhecimento
+
+Reduzir tempo de resposta
+
+Incluir mais exemplos práticos
 
 ---
 
