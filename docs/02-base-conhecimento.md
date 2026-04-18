@@ -20,22 +20,21 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+s dados mockados foram expandidos com exemplos fictícios de transações e perfis de investidores para enriquecer as simulações e tornar as respostas mais realistas. Nenhum dado sensível ou real foi utilizado.
 
 ---
 
 ## Estratégia de Integração
 
 ### Como os dados são carregados?
-> Descreva como seu agente acessa a base de conhecimento.
+Os arquivos JSON e CSV são carregados no início da sessão e ficam disponíveis em memória. O agente consulta dinamicamente esses dados conforme a interação do usuário.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
-
+Os dados são consultados dinamicamente e inseridos no contexto do prompt apenas quando relevantes. Isso evita sobrecarga e mantém as respostas claras e objetivas.
 ---
 
 ## Exemplo de Contexto Montado
